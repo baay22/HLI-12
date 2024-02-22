@@ -36,14 +36,15 @@ a{
   .emphasized { font-style: italic; }
 
 }
-.side-bar{
+.side-bar
+{
   background: #0E416B;
   flex: .1;
   padding: 40px;
   
 }
 .side-bar ul{
-  padding: 0 40px;
+  padding: 30px;
   list-style: none;
 }
 .side-bar{
@@ -51,7 +52,7 @@ a{
   h2 {
     color: white;
     text-align: center;
-    font-size: 55px;
+    font-size: 50px;
 
   }
 }
@@ -103,11 +104,11 @@ nav.nav-menu {
 /* Main Content Wrapper Styles */
 .main-wrapper {
     background: white;
-    padding: 40px 250px;
+    padding: 40px 150px;
     
   }
   section {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   section.head,
   section.youtube-embed {
@@ -148,13 +149,17 @@ nav.nav-menu {
     }
   h1 {
     font-size: 34px;
+    margin-bottom: 30px;
   }
   h2 {
     margin-bottom: 20px;
     font-size: 28px;
+    text-align: left;
   }
   h3 {
      font-size: 22px;
+     text-align: left;
+     margin-bottom: 20px;
   }
   ul{
     padding-left: 30px;
@@ -183,7 +188,10 @@ nav.nav-menu {
     margin-bottom: 10px;
     line-height: 1.5rem;
   }
-  img {
+  li {
+    text-align: justify;
+  }
+    img {
     max-width: 100%;
     float: left;
     border: 0px solid white;
